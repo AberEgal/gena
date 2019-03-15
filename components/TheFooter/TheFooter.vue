@@ -1,7 +1,7 @@
 <template>
   <footer class="flex justify-between mx-4 pt-6 pb-4 mt-4 border-t border-teal-dark">
     <div>
-      <ul class="list-reset">
+      <ul class="flex list-reset">
         <li>
           <nuxt-link
             to="/impressum/"

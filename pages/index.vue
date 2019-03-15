@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="h-v50 overflow-hidden">
+    <div class="h-v50 overflow-hidden rounded-lg">
       <img src="@/static/images/nachhaltigkeit_in_der_natur.jpg" alt="Nachhaltigkeit in der Natur">
     </div>
     <h1

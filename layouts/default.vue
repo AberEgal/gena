@@ -28,7 +28,7 @@ export default {
 }
 
 .footer-link {
-  @apply no-underline text-teal-dark text-sm
+  @apply no-underline text-teal-dark text-sm px-4
 }
 
 .footer-link:hover {
