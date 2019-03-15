@@ -4,7 +4,7 @@
       <ul class="list-reset">
         <li>
           <nuxt-link
-            to="/impressum"
+            to="/impressum/"
             class="footer-link"
           >
             Impressum
@@ -12,7 +12,7 @@
         </li>
         <li>
           <nuxt-link
-            to="/datenschutz"
+            to="/datenschutz/"
             class="footer-link"
           >
             Datenschutz
@@ -20,7 +20,7 @@
         </li>
         <li>
           <nuxt-link
-            to="/richtlinien"
+            to="/richtlinien/"
             class="footer-link"
           >
             Richtlinien
