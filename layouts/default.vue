@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-2 font-sans font-semibold">
+  <div class="container mx-auto px-2 font-sans font-semibold text-teal-darker">
     <TheHeader />
     <nuxt class="p-4" />
     <TheFooter />
