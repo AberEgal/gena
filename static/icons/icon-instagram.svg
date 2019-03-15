@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram (2)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Social-Media" transform="translate(-361.000000, 0.000000)" fill="#38a89d" fill-rule="nonzero">
+            <g id="Group-7">
+                <g id="instagram-(2)" transform="translate(361.000000, 0.000000)">
+                    <path d="M41.25,0 L18.75,0 C8.39625,0 0,8.39625 0,18.75 L0,41.25 C0,51.60375 8.39625,60 18.75,60 L41.25,60 C51.60375,60 60,51.60375 60,41.25 L60,18.75 C60,8.39625 51.60375,0 41.25,0 Z M54.375,41.25 C54.375,48.4875 48.4875,54.375 41.25,54.375 L18.75,54.375 C11.5125,54.375 5.625,48.4875 5.625,41.25 L5.625,18.75 C5.625,11.5125 11.5125,5.625 18.75,5.625 L41.25,5.625 C48.4875,5.625 54.375,11.5125 54.375,18.75 L54.375,41.25 Z" id="Shape"></path>
+                    <path d="M30,15 C21.71625,15 15,21.71625 15,30 C15,38.28375 21.71625,45 30,45 C38.28375,45 45,38.28375 45,30 C45,21.71625 38.28375,15 30,15 Z M30,39.375 C24.8325,39.375 20.625,35.1675 20.625,30 C20.625,24.82875 24.8325,20.625 30,20.625 C35.1675,20.625 39.375,24.82875 39.375,30 C39.375,35.1675 35.1675,39.375 30,39.375 Z" id="Shape"></path>
+                    <circle id="Oval" cx="46.125" cy="13.875" r="1.99875"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
