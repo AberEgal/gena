@@ -27,7 +27,7 @@
           Kontakt
         </nuxt-link>
       </nav>
-      <nav class="md:hidden">
+      <nav class="md:hidden px-4">
         <img class="w-16 ml-4 mt-4" src="@/static/icons/burger-icon.svg" alt="Menu">
       </nav>
     </div>
