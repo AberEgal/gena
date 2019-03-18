@@ -1,0 +1,7 @@
+{
+  allPosts(orderBy: updatedAt_DESC) {
+    url
+    title
+    body
+  }
+}

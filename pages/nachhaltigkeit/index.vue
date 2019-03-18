@@ -1,22 +1,22 @@
 <template>
   <div>
     <h1>Nachhaltigkeit</h1>
-    <div v-for="item in profiles" :key="item.id">
+    <div v-for="item in allPosts" :key="item.id">
       <nuxt-link :to="`/article/${item.id}`">
-        {{ item.name }}
+        {{ item.title }}
+        {{ item.body }}
+        {{ item.slug }}
       </nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
-import profiles from '~/apollo/queries/fetchProfiles'
+
+import allPosts from '~/apollo/queries/allPosts'
 export default {
   apollo: {
-    profiles: {
-      prefetch: true,
-      query: profiles
-    }
+    allPosts
   },
   head() {
     return {

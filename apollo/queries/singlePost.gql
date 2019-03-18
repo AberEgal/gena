@@ -1,0 +1,7 @@
+{
+  allPosts(url: $url) {
+    title
+    body
+    updatedAt
+  }
+}

@@ -51,24 +51,8 @@ module.exports = {
 
   },
   apollo: {
-    includeNodeModules: true,
-    authenticationType: 'Basic',
-    errorHandler(error) {
-      console.log('%cError', 'background: red; color: white; padding: 2px 4px; border-radius: 3px; font-weight: bold;', error.message)
-    },
     clientConfigs: {
-      default: {
-
-        httpEndpoint: 'http://vps21959657.delta-networks.de:1337',
-        httpLinkOptions: {
-          credentials: 'same-origin'
-        },
-        persisting: false,
-        websocketsOnly: false
-      },
-      test: {
-        httpEndpoint: 'http://vps21959657.delta-networks.de:1337'
-      }
+      default: '~/apollo/config.js'
     }
   },
 
