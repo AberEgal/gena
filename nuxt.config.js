@@ -61,7 +61,7 @@ module.exports = {
     clientConfigs: {
       default: {
         // required  
-        httpEndpoint: 'http://vps21959657.delta-networks.de:1337/graphql',
+        httpEndpoint: 'http://vps21959657.delta-networks.de:1337',
         // optional
         // See https://www.apollographql.com/docs/link/links/http.html#options
         httpLinkOptions: {
@@ -77,7 +77,7 @@ module.exports = {
         websocketsOnly: false // Optional
       },
       test: {
-        httpEndpoint: 'http://vps21959657.delta-networks.de:1337/graphql'
+        httpEndpoint: 'http://vps21959657.delta-networks.de:1337'
       }
       // alternative: user path to config which returns exact same config options
     }
