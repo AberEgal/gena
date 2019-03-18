@@ -13,7 +13,7 @@
 import profile from '~/apollo/queries/fetchProfile'
 export default {
   apollo: {
-    author: {
+    profile: {
       prefetch: true,
       query: profile
     }
