@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Nachhaltigkeit</h1>
-    <div v-for="item in profile" :key="item.id">
+    <div v-for="item in profiles" :key="item.id">
       <nuxt-link :to="`/article/${item.id}`">
         {{ item.name }}
       </nuxt-link>
