@@ -1,0 +1,11 @@
+{
+  profiles {
+    name
+    email
+    description
+    createdAt
+    picture {
+      url
+    }
+  }
+}

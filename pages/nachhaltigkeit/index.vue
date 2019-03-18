@@ -1,9 +1,23 @@
 <template>
-  <h1>Nachhaltigkeit</h1>
+  <div>
+    <h1>Nachhaltigkeit</h1>
+    <div v-for="item in profile" :key="item.id">
+      <nuxt-link :to="`/article/${item.id}`">
+        {{ item.name }}
+      </nuxt-link>
+    </div>
+  </div>
 </template>
 
 <script>
+import profile from '~/apollo/queries/fetchProfile'
 export default {
+  apollo: {
+    author: {
+      prefetch: true,
+      query: profile
+    }
+  },
   head() {
     return {
       title: 'Generation Nachhaltigkeit für mehr Nachhaltigkeit',

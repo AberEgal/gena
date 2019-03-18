@@ -41,13 +41,50 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/apollo'
   ],
   /*
   ** Axios module configuration
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+  apollo: {
+    tokenName: 'yourApolloTokenName', // optional, default: apollo-token
+    tokenExpires: 10, // optional, default: 7 (days)
+    includeNodeModules: false, // optional, default: false (this includes graphql-tag for node_modules folder)
+    authenticationType: 'Basic', // optional, default: 'Bearer'
+    // optional
+    errorHandler (error) {
+      console.log('%cError', 'background: red; color: white; padding: 2px 4px; border-radius: 3px; font-weight: bold;', error.message)
+    },
+    // required
+    clientConfigs: {
+      default: {
+        // required  
+        httpEndpoint: 'http://vps21959657.delta-networks.de:1337/graphql',
+        // optional
+        // See https://www.apollographql.com/docs/link/links/http.html#options
+        httpLinkOptions: {
+          credentials: 'same-origin'
+        },
+        // You can use `wss` for secure connection (recommended in production)
+        // Use `null` to disable subscriptions
+        // LocalStorage token
+        tokenName: 'apollo-token', // optional
+        // Enable Automatic Query persisting with Apollo Engine
+        persisting: false, // Optional
+        // Use websockets for everything (no HTTP)
+        // You need to pass a `wsEndpoint` for this to work
+        websocketsOnly: false // Optional
+      },
+      test: {
+        httpEndpoint: 'http://vps21959657.delta-networks.de:1337/graphql',
+        tokenName: 'apollo-token'
+      },
+      // alternative: user path to config which returns exact same config options
+    }
   },
 
   /*
