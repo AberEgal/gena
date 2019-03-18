@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "vps": "HOST: 134.255.237.131",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
