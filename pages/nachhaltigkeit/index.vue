@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import profile from '~/apollo/queries/fetchProfile'
+import profiles from '~/apollo/queries/fetchProfiles'
 export default {
   apollo: {
-    profile: {
+    profiles: {
       prefetch: true,
-      query: profile
+      query: profiles
     }
   },
   head() {

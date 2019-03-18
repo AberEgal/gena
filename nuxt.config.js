@@ -48,38 +48,27 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+
   },
   apollo: {
-    includeNodeModules: true, // optional, default: false (this includes graphql-tag for node_modules folder)
-    authenticationType: 'Basic', // optional, default: 'Bearer'
-    // optional
+    includeNodeModules: true,
+    authenticationType: 'Basic',
     errorHandler(error) {
       console.log('%cError', 'background: red; color: white; padding: 2px 4px; border-radius: 3px; font-weight: bold;', error.message)
     },
-    // required
     clientConfigs: {
       default: {
-        // required  
+
         httpEndpoint: 'http://vps21959657.delta-networks.de:1337',
-        // optional
-        // See https://www.apollographql.com/docs/link/links/http.html#options
         httpLinkOptions: {
           credentials: 'same-origin'
         },
-        // You can use `wss` for secure connection (recommended in production)
-        // Use `null` to disable subscriptions
-        // LocalStorage token
-        // Enable Automatic Query persisting with Apollo Engine
-        persisting: false, // Optional
-        // Use websockets for everything (no HTTP)
-        // You need to pass a `wsEndpoint` for this to work
-        websocketsOnly: false // Optional
+        persisting: false,
+        websocketsOnly: false
       },
       test: {
         httpEndpoint: 'http://vps21959657.delta-networks.de:1337'
       }
-      // alternative: user path to config which returns exact same config options
     }
   },
 

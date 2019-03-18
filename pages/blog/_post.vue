@@ -1,5 +1,5 @@
 <template>
-  <h1>Dies ist ein Post!</h1>
+  <h1>Dies ist ein Post mit der URL {{ this.$route.params.post }} </h1>
 </template>
 
 <script>
